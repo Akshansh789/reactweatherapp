@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 1%;
+  background: linear-gradient(45deg, #25316D 30%, #E1E0E0 90%);
+  background-size: cover;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.title {
+  color: #fff;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.search-form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-form input {
+  width: 90%;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #000000;
+  background: #000000;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.search-form button {
+  width: 8%;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px !important;
+  background: linear-gradient(45deg, #d0b3e7 30%, #c372f1 90%);
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+.search-form button:hover {
+  background: linear-gradient(45deg, #FFAFBD 30%, #ffc3a0 90%);
+  color: #000000;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+.main-container h4 {
+  font-size: 25px;
+  font-weight: 800;
+}
+.main-container .weather-icon img {
+  width: 100px;
+  height: 100px;
+  animation: iconanimation 3s infinite;
+}
+
+.main-container .weather-icon img {
+  width: 100px;
+  height: 100px;
+  animation: iconanimation 3s infinite;
+}
+
+@keyframes iconanimation {
+  from {
+    transform: scale(0.5,0.5);
+  }
+  to {
+    transform: scale(1,1);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .search-form input {
+    width: 70%;
+  }
+  .search-form button {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .search-form input {
+    width: 70%;
+  }
+  .search-form button {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 768px){
+  .search-form input {
+    width: 80%;
+  }
+  .search-form button {
+    width: 18%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .search-form input {
+    width: 80%;
+  }
+  .search-form button {
+    width: 18%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .search-form input {
+      width: 90%;
+  }
+  .search-form button {
+    width: 8%;
+  }
+}
+
+.temprature h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.temprature h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.location h3 i {
+  margin-right: 10px;
+  animation: locationicon 2s infinite;
+}
+
+@keyframes locationicon {
+  0% {
+    transform: rotateY(0deg)
+  }
+  50%{
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform:  rotateY(360deg);
+  }
+}
+
+.loader-container {
+  margin: 15%;
+}
