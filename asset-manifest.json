@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactweatherapp/static/css/main.62bd8219.css",
+    "main.js": "/reactweatherapp/static/js/main.5de3b603.js",
+    "static/js/787.d62d1c65.chunk.js": "/reactweatherapp/static/js/787.d62d1c65.chunk.js",
+    "static/media/levi-guzman-wF5z4_JzxaU-unsplash.jpg": "/reactweatherapp/static/media/levi-guzman-wF5z4_JzxaU-unsplash.76f6db6961e7fb2b1d88.jpg",
+    "index.html": "/reactweatherapp/index.html",
+    "main.62bd8219.css.map": "/reactweatherapp/static/css/main.62bd8219.css.map",
+    "main.5de3b603.js.map": "/reactweatherapp/static/js/main.5de3b603.js.map",
+    "787.d62d1c65.chunk.js.map": "/reactweatherapp/static/js/787.d62d1c65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62bd8219.css",
+    "static/js/main.5de3b603.js"
+  ]
+}
